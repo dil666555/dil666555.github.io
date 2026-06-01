@@ -1,0 +1,102 @@
+# Butterfly Theme Configuration
+
+# Creative Commons License
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Avatar
+avatar:
+  img: /images/profile.jpg
+  effect: false
+
+# Favicon
+favicon: /img/favicon.ico
+
+# Dark Mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+  default_value: dark
+
+# Site Info / Social
+social:
+  fab fa-github: https://github.com/dil666555 || Github
+
+# Search (Disabled by default matching original site)
+local_search:
+  enable: false
+
+# PJAX (Disabled to avoid incorrect script tag injection)
+pjax:
+  enable: false
+
+# CDN Configuration
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true
+  option:
+    busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+# Menu (Navigation)
+menu:
+  Home: / || fas fa-home
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2022
+  custom_text: ''
+
+# Page layout & sidebar settings
+aside:
+  enable: true
+  hide: false
+  button: true
+  card_author:
+    enable: true
+    description: dre 的博客
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/dil666555
+  card_announcement:
+    enable: true
+    content: This is my Blog
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+  card_tags:
+    enable: true
+  card_archives:
+    enable: true
+  card_webinfo:
+    enable: true
+    postcount: true
+    lastupdated: true
+
+# Metadata on index page
+index_post_meta:
+  date_type: created
+  category: true
+  tag: true
+
+# Metadata on post page
+post_meta:
+  date_type: both
+  category: true
+  tag: true
+  wordcount: false
+  min2read: false
+
+# Inject custom HTML/CSS/JS (Empty to avoid incorrect tags)
+inject:
+  head:
+  bottom:
