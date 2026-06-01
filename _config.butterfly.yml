@@ -100,3 +100,13 @@ post_meta:
 inject:
   head:
   bottom:
+
+# Page Transition
+enter_transitions: true
+
+# Beautify Content
+beautify:
+  enable: true
+  field: post
+  title_prefix_icon: '\f0c1'
+  title_prefix_icon_color: '#49B1F5'
