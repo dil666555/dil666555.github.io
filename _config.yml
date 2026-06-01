@@ -100,3 +100,4 @@ deploy:
   type: git
   repo: git@github.com:dil666555/dil666555.github.io.git
   branch: master
+  ignore_hidden: false
